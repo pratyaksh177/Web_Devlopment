@@ -1,0 +1,99 @@
+body {
+    background-color: gainsboro;
+    background-image: url("purple-curve-abstract-background-template-1611572332007-icon.png");
+    flex-wrap: wrap;
+}
+
+.M {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(218, 176, 98);
+    flex-direction: row;
+    border-radius: 5px;
+    position:static;
+}
+
+.M div {
+    margin: 0 15px;
+}
+
+#1 {
+    border-radius: 5px;
+    border-color: rgb(244, 191, 191);
+
+}
+
+.q {
+    padding: 5px;
+    margin: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about {
+    border: solid 1px white;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 70vw;
+
+}
+
+.about p {
+    padding: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+    line-height: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+
+.s {
+    /* image: url("WhatsApp Image 2023-01-28 at 00.56.51.jpeg"); */
+    height: 50vh;
+    overflow: hidden;
+    margin: auto;
+    width: 160px;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    border-radius: 50% 50% 0;
+    width: 250px;
+    height: 250px;
+
+}
+
+.s img {
+    width: 100%;
+}
+.Pr{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(218, 176, 98);
+    flex-direction: row;
+    padding: 3px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+#E {
+    background-color: rgb(218, 176, 98) ;
+    height: 40vh;
+    border: 3px solid purple;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+   color: white;
+   font-weight: 600;
+
+    width: 270px;
+    }
+    #E a{
+        color: aliceblue;
+
+    
+    
+    }
