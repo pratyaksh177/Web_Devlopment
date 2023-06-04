@@ -1,27 +1,27 @@
 body {
-    background-color: gainsboro;
-    background-image: url("purple-curve-abstract-background-template-1611572332007-icon.png");
+    background-color: rgb(240, 231, 231);
     flex-wrap: wrap;
 }
 
 .M {
     display: flex;
     margin: auto;
-    justify-content: center;
-    background-color: rgb(218, 176, 98);
+    justify-content: end;
     flex-direction: row;
     border-radius: 5px;
     position:static;
+    color: rgb(42, 41, 41);
+    font-size: 30px;
 }
 
 .M div {
     margin: 0 15px;
 }
 
-#1 {
-    border-radius: 5px;
-    border-color: rgb(244, 191, 191);
-
+.M a {
+     text-decoration: none;
+     font-size: 30px;
+     color: rgb(38, 38, 38);
 }
 
 .q {
@@ -32,12 +32,11 @@ body {
 }
 
 .about {
-    border: solid 1px white;
     position: absolute;
     top: 100px;
     left: 50px;
     width: 70vw;
-
+    font-size: 30px;
 }
 
 .about p {
@@ -46,7 +45,7 @@ body {
     padding-left: 20px;
     text-align: left;
     line-height: 25px;
-    color: white;
+    color: rgb(228, 153, 14);
     font-weight: 600;
 }
 
@@ -58,7 +57,7 @@ body {
     margin: auto;
     width: 160px;
     position: absolute;
-    top: 70px;
+    top: 130px;
     right: 30px;
     border-radius: 50% 50% 0;
     width: 250px;
@@ -72,28 +71,23 @@ body {
 .Pr{
     display: flex;
     margin: auto;
-    justify-content: center;
-    background-color: rgb(218, 176, 98);
+    justify-content: start;
     flex-direction: row;
     padding: 3px;
     font-weight: 600;
-    border-radius: 5px;
+    margin-left: 50px;
+    font-size: 45px;
 }
 #E {
-    background-color: rgb(218, 176, 98) ;
-    height: 40vh;
-    border: 3px solid purple;
-    border-radius: 10px;
-    padding: 10px;
-    margin: auto;
-   color: white;
+   height: 300px;
+   width: fit-content;
+   color: rgb(228, 153, 14);
    font-weight: 600;
-
-    width: 270px;
+   font-size: 25px;
+   margin: auto;
+   margin-left: 50px;
     }
     #E a{
-        color: aliceblue;
-
-    
-    
+        color: rgb(58, 142, 215);
+        text-decoration: none;
     }
